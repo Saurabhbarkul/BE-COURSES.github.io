@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>BE COURSES</title>
+
+	<style>
+		* {
+			margin: 1;
+			padding: 1;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: left;
+			justify-content: right;
+			position: sticky;
+			top: 1;
+			cursor: pointer;
+		}
+
+		.background {
+			background: rgb(115, 153, 140);
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 80%;
+			display: flex;
+			align-items: left;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 0px;
+			border-radius: 5px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 10px 20px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: rgb(54, 3, 3);
+		}
+
+		.nav-list li a:hover {
+			color: rgb(245, 10, 22);
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid rgb(73, 3, 3);
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: rgb(211, 158, 195);
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: rgb(109, 221, 236);
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: rgb(48, 23, 23);
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="#C++">C++ language</a></li>
+			<li><a href="DBMS">DBMS</a></li>
+			<li><a href="CNS ORALQ Q..docx">CNS</a></li>
+			
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="c++">c++</h1>
+				<p class="text-small">
+					C++ is a cross-platform language that can be used to create high-performance applications. 
+					C++ was developed by Bjarne Stroustrup, as an extension to the C language.
+					 C++ gives programmers a high level of control over system resources and memory.C++ is one of the world's most popular programming languages.
+
+					 C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.
+					 
+					 C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+					 
+					 C++ is portable and can be used to develop applications that can be adapted to multiple platforms.
+					 
+					 C++ is fun and easy to learn!
+					 
+					 As C++ is close to C# and Java, it makes it easy for programmers to switch to C++ or vice versa
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="DBMS">
+					DBMS
+				</h1>
+				<p class="text-small">
+					An  organization  must  have  accurate  and  reliable  data  for  effective  decision making.
+					 To this end, the organization maintains records on the various facets maintaining relationships among them.
+					  Such related data are called a database. A database system is an integrated collection of related files, 
+					  along with details of the interpretation of the data contained  therein. Basically,  
+					  database system  is nothing  more than  a computer-based record  keeping  system i.e.
+					   a  system  whose  overall purpose  is  to record and  maintain information/data. 
+					    A database management system (DBMS) is a software system that allows access to data contained 
+						
+						in a database. The objective of the DBMS is to provide a convenient and effective method of defining,
+						
+						storing and retrieving the information contained in the database. The DBMS interfaces with the
+						 application programs, so that the data contained in the database can be used by multiple applications 
+						 and users. In addition, the DBMS exerts centralized control of the database, prevents fraudulent or
+						  unauthorized users from accessing the data, and ensures the privacy of the data.    Generally  a 
+						   database  is  an  organized  collection  of  related  information.  
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">CNS</h1>
+
+			<p class="sectionSubTag text-small">
+				Computer data often travels from one computer to another, leaving the safety of its
+protected physical surroundings. Once the data is out of hand, people with bad intention could
+modify or forge your data, either for amusement or for their own benefit.
+Cryptography can reformat and transform our data, making it safer on its trip between
+computers. The technology is based on the essentials of secret codes, augmented by modern
+mathematics that protects our data in powerful ways. 
+			</p>
+
+
+		</div>
+
+		
+	</section>
+
+
+</body>
+
+</html>
